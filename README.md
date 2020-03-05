@@ -60,3 +60,5 @@ Install nodemon package if you want server to restart automatically when changes
     $ npm start
     or
     $ nodemon
+    
+Visit your app at http://localhost:3000.
