@@ -38,7 +38,8 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ###
 
 ## To install a package
-package.json contains all the dependensies required for the node project. You can either install them seperately using command prompt or powershell in windows or terminal in linux. (Make sure your path in the terminal is the project path e.g. C:\Users\<User Name>\Desktop\nodejs)
+package.json contains all the dependensies required for the node project. You can either install them seperately using command prompt or powershell in windows or terminal in linux.
+- Make sure your path in the terminal is the project path such that `cd nodejs-project` e.g. C:\Users\<User Name>\Desktop\nodejs-project
 
     $ `npm install --global <package_name>` for global installation.
 
