@@ -1,27 +1,11 @@
 # nodejs-project
 
-Skip to content
- 
-Search…
-All gists
-Back to GitHub
-@mhamid49 
-@Igormandello Igormandello/Node.js project readme template
-Last active 6 months ago • Report abuse
-6
-0
- Code Revisions 5 Stars 6
-<script src="https://gist.github.com/Igormandello/57d57ee9a9f32a5414009cbe191db432.js"></script>
-  
- Node.js project readme template
-# Project Title
-
-A nice project with a nice description
+This README outlines the details of collaborating on this Node JS application.
 
 ---
 ## Requirements
 
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+For development, you will only need Node.js and a node global package, installed in your environement.
 
 ### Node
 - #### Node installation on Windows
@@ -52,48 +36,27 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ npm install npm -g
 
 ###
-### Yarn installation
-  After installing node, this project will need yarn too, so just run the following command.
 
-      $ npm install -g yarn
+## To install a package
+package.json contains all the dependensies required for the node project. You can either install them seperately using command prompt or powershell in windows or terminal in linux. (Make sure your path in the terminal is the project path e.g. C:\Users\<User Name>\Desktop\nodejs)
 
----
+    $ `npm install --global <package_name>` for global installation.
 
-## Install
+    $ `npm install --save <package_name>` to install the package as a project dependency or a development dependency.
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
-    $ yarn install
+## To install all dependencies from a package.json file
+An easy way to install all dependensies given in package.json file is to run the following command(s).
 
-## Configure app
+    $ npm install
 
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
+## nodemon (optional)
+Install nodemon package if you want server to restart automatically when changes are made in aby file.
+`nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.`
 
-- A setting;
-- Another setting;
-- One more setting;
+    $ npm install -g nodemon
 
 ## Running the project
 
-    $ yarn start
-
-## Simple build for production
-
-    $ yarn build
-@mhamid49
- 
-Leave a comment
-
-Attach files by dragging & dropping, selecting or pasting them.
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+    $ npm start
+    or
+    $ nodemon
